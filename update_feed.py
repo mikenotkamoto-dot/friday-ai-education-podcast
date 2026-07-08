@@ -13,6 +13,7 @@ import shutil
 import subprocess
 import time
 import xml.etree.ElementTree as ET
+from PIL import Image, ImageDraw, ImageFont
 
 SRC = Path('/Users/emilealbert/FRIDAY/walkcasts/daily-ai-education')
 PUBLIC = Path(__file__).resolve().parent / 'docs'
@@ -83,7 +84,20 @@ def build() -> dict:
             'duration': ffprobe_duration(src_mp3),
         })
 
-    (PUBLIC / 'cover.svg').write_text('''<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1400" viewBox="0 0 1400 1400"><rect width="1400" height="1400" fill="#0b0f19"/><circle cx="1080" cy="230" r="190" fill="#1f6feb" opacity="0.32"/><circle cx="260" cy="1120" r="260" fill="#f97316" opacity="0.20"/><text x="110" y="570" font-family="Inter, Arial, sans-serif" font-size="116" font-weight="700" fill="#f8fafc">FRIDAY AI</text><text x="110" y="700" font-family="Inter, Arial, sans-serif" font-size="116" font-weight="700" fill="#f8fafc">Education</text><text x="115" y="820" font-family="Inter, Arial, sans-serif" font-size="54" fill="#94a3b8">Daily operator walkcast</text></svg>''', encoding='utf-8')
+    cover_img = Image.new('RGB', (1400, 1400), '#0b0f19')
+    draw = ImageDraw.Draw(cover_img)
+    draw.ellipse((890, 40, 1270, 420), fill='#132f5f')
+    draw.ellipse((0, 860, 520, 1380), fill='#3b2315')
+    try:
+        title_font = ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial Bold.ttf', 116)
+        sub_font = ImageFont.truetype('/System/Library/Fonts/Supplemental/Arial.ttf', 54)
+    except Exception:
+        title_font = ImageFont.load_default()
+        sub_font = ImageFont.load_default()
+    draw.text((110, 510), 'FRIDAY AI', fill='#f8fafc', font=title_font)
+    draw.text((110, 640), 'Education', fill='#f8fafc', font=title_font)
+    draw.text((115, 780), 'Daily operator walkcast', fill='#94a3b8', font=sub_font)
+    cover_img.save(PUBLIC / 'cover.png', 'PNG')
     (PUBLIC / 'robots.txt').write_text('User-agent: *\nDisallow: /\n', encoding='utf-8')
     (PUBLIC / '.nojekyll').write_text('', encoding='utf-8')
 
@@ -100,7 +114,7 @@ def build() -> dict:
         '<itunes:explicit>false</itunes:explicit>',
         '<itunes:type>episodic</itunes:type>',
         '<itunes:category text="Education"/>',
-        f'<itunes:image href="{BASE_URL}/cover.svg"/>',
+        f'<itunes:image href="{BASE_URL}/cover.png"/>',
         f'<lastBuildDate>{formatdate(time.time(), usegmt=True)}</lastBuildDate>',
     ]
 
