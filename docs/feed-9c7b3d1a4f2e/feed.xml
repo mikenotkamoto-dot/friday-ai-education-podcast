@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Wed, 08 Jul 2026 10:19:17 GMT</lastBuildDate>
+<lastBuildDate>Thu, 09 Jul 2026 09:10:20 GMT</lastBuildDate>
+<item>
+<title>Episode 023: Finding Judgment Bottlenecks</title>
+<description>FRIDAY AI Education Episode 023: Finding Judgment Bottlenecks. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-09-ep-023-finding-judgment-bottlenecks/2026-07-09-ep-023-finding-judgment-bottlenecks-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 023: Finding Judgment Bottlenecks. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-09-ep-023-finding-judgment-bottlenecks/2026-07-09-ep-023-finding-judgment-bottlenecks-claude.pdf</itunes:summary>
+<pubDate>Thu, 09 Jul 2026 08:29:41 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-023-6fddbf7830c6</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-09-ep-023-finding-judgment-bottlenecks/friday-ai-education-ep-023.mp3" length="22136927" type="audio/mpeg"/>
+<itunes:episode>23</itunes:episode>
+<itunes:duration>00:23:03</itunes:duration>
+</item>
 <item>
 <title>Episode 022: Workflow Anatomy Inputs Transformations Outputs</title>
 <description>FRIDAY AI Education Episode 022: Workflow Anatomy Inputs Transformations Outputs. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-08-ep-022-workflow-anatomy-inputs-transformations-outputs/2026-07-08-ep-022-workflow-anatomy-inputs-transformations-outputs-claude.pdf</description>
