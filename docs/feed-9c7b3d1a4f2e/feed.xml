@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Thu, 09 Jul 2026 09:10:20 GMT</lastBuildDate>
+<lastBuildDate>Fri, 10 Jul 2026 09:10:12 GMT</lastBuildDate>
+<item>
+<title>Episode 024: Workflow Data Manifest</title>
+<description>FRIDAY AI Education Episode 024: Workflow Data Manifest. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-10-ep-024-workflow-data-manifest/2026-07-10-ep-024-workflow-data-manifest-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 024: Workflow Data Manifest. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-10-ep-024-workflow-data-manifest/2026-07-10-ep-024-workflow-data-manifest-claude.pdf</itunes:summary>
+<pubDate>Fri, 10 Jul 2026 08:25:39 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-024-b39281b1ad56</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-10-ep-024-workflow-data-manifest/friday-ai-education-ep-024.mp3" length="18099859" type="audio/mpeg"/>
+<itunes:episode>24</itunes:episode>
+<itunes:duration>00:18:51</itunes:duration>
+</item>
 <item>
 <title>Episode 023: Finding Judgment Bottlenecks</title>
 <description>FRIDAY AI Education Episode 023: Finding Judgment Bottlenecks. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-09-ep-023-finding-judgment-bottlenecks/2026-07-09-ep-023-finding-judgment-bottlenecks-claude.pdf</description>
