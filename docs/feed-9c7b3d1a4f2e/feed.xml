@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Fri, 10 Jul 2026 09:10:12 GMT</lastBuildDate>
+<lastBuildDate>Sat, 11 Jul 2026 09:10:18 GMT</lastBuildDate>
+<item>
+<title>Episode 025: Review Queues And Human Gates</title>
+<description>FRIDAY AI Education Episode 025: Review Queues And Human Gates. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-11-ep-025-review-queues-and-human-gates/2026-07-11-ep-025-review-queues-and-human-gates-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 025: Review Queues And Human Gates. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-11-ep-025-review-queues-and-human-gates/2026-07-11-ep-025-review-queues-and-human-gates-claude.pdf</itunes:summary>
+<pubDate>Sat, 11 Jul 2026 08:23:23 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-025-01a00c92b21b</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-11-ep-025-review-queues-and-human-gates/friday-ai-education-ep-025.mp3" length="20248169" type="audio/mpeg"/>
+<itunes:episode>25</itunes:episode>
+<itunes:duration>00:21:05</itunes:duration>
+</item>
 <item>
 <title>Episode 024: Workflow Data Manifest</title>
 <description>FRIDAY AI Education Episode 024: Workflow Data Manifest. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-10-ep-024-workflow-data-manifest/2026-07-10-ep-024-workflow-data-manifest-claude.pdf</description>
