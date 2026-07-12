@@ -15,7 +15,7 @@ import time
 import xml.etree.ElementTree as ET
 from PIL import Image, ImageDraw, ImageFont
 
-SRC = Path('/Users/emilealbert/FRIDAY/walkcasts/daily-ai-education')
+SRC = Path('/Users/emilealbert/baeten-labs/friday/walkcasts/daily-ai-education')
 PUBLIC = Path(__file__).resolve().parent / 'docs'
 SECRET_PATH = 'feed-9c7b3d1a4f2e'
 BASE_URL = 'https://mikenotkamoto-dot.github.io/friday-ai-education-podcast'
@@ -47,42 +47,68 @@ def build() -> dict:
     feed_dir.mkdir(parents=True, exist_ok=True)
 
     items: list[dict] = []
-    for day_dir in sorted((SRC / 'episodes').glob('*-ep-*')):
-        if not day_dir.is_dir():
+    source_dirs = {p.name: p for p in (SRC / 'episodes').glob('*-ep-*') if p.is_dir()}
+    public_dirs = {p.name: p for p in (PUBLIC / 'episodes').glob('*-ep-*') if p.is_dir()}
+    # Union preserves already-published episodes whose original local source was
+    # archived, while allowing newly generated episodes to be added.
+    for name in sorted(set(source_dirs) | set(public_dirs)):
+        source_dir = source_dirs.get(name)
+        public_dir = public_dirs.get(name)
+        day_dir = source_dir or public_dir
+        if day_dir is None:
             continue
-        mp3s = list(day_dir.glob('*.mp3'))
-        if not mp3s:
+        candidates = list(source_dir.glob('*.mp3')) if source_dir else []
+        if not candidates and public_dir:
+            candidates = list(public_dir.glob('*.mp3'))
+        if not candidates:
             continue
-        match = re.match(r'(\d{4}-\d{2}-\d{2})-ep-(\d{3})-(.+)', day_dir.name)
+        match = re.match(r'(\d{4}-\d{2}-\d{2})-ep-(\d{3})-(.+)', name)
         if not match:
             continue
         date, ep, slug = match.groups()
-        src_mp3 = mp3s[0]
-        dest_dir = PUBLIC / 'episodes' / day_dir.name
+        src_mp3 = candidates[0]
+        dest_dir = PUBLIC / 'episodes' / name
         dest_dir.mkdir(parents=True, exist_ok=True)
         dest_mp3 = dest_dir / src_mp3.name
-        if not dest_mp3.exists() or dest_mp3.stat().st_size != src_mp3.stat().st_size:
+        if src_mp3.resolve() != dest_mp3.resolve() and (not dest_mp3.exists() or dest_mp3.stat().st_size != src_mp3.stat().st_size):
             shutil.copy2(src_mp3, dest_mp3)
 
         pdf_rel = None
         pdf_candidates = list((SRC / 'printable-packs').glob(f'{date}-ep-{ep}-*-claude.pdf'))
+        if not pdf_candidates:
+            pdf_candidates = list(dest_dir.glob('*-claude.pdf'))
         if pdf_candidates:
             src_pdf = pdf_candidates[0]
             dest_pdf = dest_dir / src_pdf.name
-            if not dest_pdf.exists() or dest_pdf.stat().st_size != src_pdf.stat().st_size:
+            if src_pdf.resolve() != dest_pdf.resolve() and (not dest_pdf.exists() or dest_pdf.stat().st_size != src_pdf.stat().st_size):
                 shutil.copy2(src_pdf, dest_pdf)
-            pdf_rel = f'episodes/{day_dir.name}/{src_pdf.name}'
+            pdf_rel = f'episodes/{name}/{src_pdf.name}'
 
         items.append({
             'date': date,
             'ep': ep,
             'title': ' '.join(word.capitalize() for word in slug.split('-')),
-            'mp3_rel': f'episodes/{day_dir.name}/{src_mp3.name}',
+            'mp3_rel': f'episodes/{name}/{dest_mp3.name}',
             'pdf_rel': pdf_rel,
             'size': dest_mp3.stat().st_size,
             'mtime': dest_mp3.stat().st_mtime,
-            'duration': ffprobe_duration(src_mp3),
+            'duration': ffprobe_duration(dest_mp3),
         })
+
+    if not items:
+        raise RuntimeError(f'Refusing to publish an empty feed; no MP3 episodes found under {SRC / "episodes"} or {PUBLIC / "episodes"}')
+
+    feed_path = feed_dir / 'feed.xml'
+    previous_count = 0
+    if feed_path.exists():
+        try:
+            previous_count = len(ET.parse(feed_path).getroot().findall('./channel/item'))
+        except ET.ParseError:
+            previous_count = 0
+    if previous_count >= 5 and len(items) < previous_count - 1:
+        raise RuntimeError(
+            f'Refusing destructive feed shrink: existing feed has {previous_count} episodes, rebuild found {len(items)}'
+        )
 
     cover_img = Image.new('RGB', (1400, 1400), '#0b0f19')
     draw = ImageDraw.Draw(cover_img)
