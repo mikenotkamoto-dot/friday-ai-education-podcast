@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Tue, 14 Jul 2026 09:10:16 GMT</lastBuildDate>
+<lastBuildDate>Wed, 15 Jul 2026 09:10:38 GMT</lastBuildDate>
+<item>
+<title>Episode 029: Workflow Failure Modes I Bad Inputs And False Confidence</title>
+<description>FRIDAY AI Education Episode 029: Workflow Failure Modes I Bad Inputs And False Confidence. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 029: Workflow Failure Modes I Bad Inputs And False Confidence. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence-claude.pdf</itunes:summary>
+<pubDate>Wed, 15 Jul 2026 08:24:01 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-029-f9d7771efd54</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence/friday-ai-education-ep-029.mp3" length="19091676" type="audio/mpeg"/>
+<itunes:episode>29</itunes:episode>
+<itunes:duration>00:19:53</itunes:duration>
+</item>
 <item>
 <title>Episode 028: Operating Memory Iii Retrieval Forgetting And Learning Loops</title>
 <description>FRIDAY AI Education Episode 028: Operating Memory Iii Retrieval Forgetting And Learning Loops. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-14-ep-028-operating-memory-iii-retrieval-forgetting-and-learning-loops/2026-07-14-ep-028-operating-memory-iii-retrieval-forgetting-and-learning-loops-claude.pdf</description>
