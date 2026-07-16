@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Wed, 15 Jul 2026 09:10:38 GMT</lastBuildDate>
+<lastBuildDate>Thu, 16 Jul 2026 09:10:24 GMT</lastBuildDate>
+<item>
+<title>Episode 030: Operating Memory Iv Build The Memory Layer</title>
+<description>FRIDAY AI Education Episode 030: Operating Memory Iv Build The Memory Layer. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 030: Operating Memory Iv Build The Memory Layer. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer-claude.pdf</itunes:summary>
+<pubDate>Thu, 16 Jul 2026 08:26:59 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-030-26fedb60827d</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer/friday-ai-education-ep-030.mp3" length="21323996" type="audio/mpeg"/>
+<itunes:episode>30</itunes:episode>
+<itunes:duration>00:22:12</itunes:duration>
+</item>
 <item>
 <title>Episode 029: Workflow Failure Modes I Bad Inputs And False Confidence</title>
 <description>FRIDAY AI Education Episode 029: Workflow Failure Modes I Bad Inputs And False Confidence. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence/2026-07-15-ep-029-workflow-failure-modes-i-bad-inputs-and-false-confidence-claude.pdf</description>
