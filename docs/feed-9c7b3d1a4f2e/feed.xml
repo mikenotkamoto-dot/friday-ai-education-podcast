@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Thu, 16 Jul 2026 09:10:24 GMT</lastBuildDate>
+<lastBuildDate>Fri, 17 Jul 2026 09:10:47 GMT</lastBuildDate>
+<item>
+<title>Episode 031: Workflow Failure Modes Ii Unsafe Action Drift And Recovery</title>
+<description>FRIDAY AI Education Episode 031: Workflow Failure Modes Ii Unsafe Action Drift And Recovery. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 031: Workflow Failure Modes Ii Unsafe Action Drift And Recovery. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery-claude.pdf</itunes:summary>
+<pubDate>Fri, 17 Jul 2026 08:26:09 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-031-88f145f13abe</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery/friday-ai-education-ep-031.mp3" length="16901152" type="audio/mpeg"/>
+<itunes:episode>31</itunes:episode>
+<itunes:duration>00:17:36</itunes:duration>
+</item>
 <item>
 <title>Episode 030: Operating Memory Iv Build The Memory Layer</title>
 <description>FRIDAY AI Education Episode 030: Operating Memory Iv Build The Memory Layer. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer/2026-07-16-ep-030-operating-memory-iv-build-the-memory-layer-claude.pdf</description>
