@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Fri, 17 Jul 2026 09:10:47 GMT</lastBuildDate>
+<lastBuildDate>Sat, 18 Jul 2026 09:10:06 GMT</lastBuildDate>
+<item>
+<title>Episode 032: Writing The Workflow Spec I Objective Inputs And Output Contract</title>
+<description>FRIDAY AI Education Episode 032: Writing The Workflow Spec I Objective Inputs And Output Contract. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-18-ep-032-writing-the-workflow-spec-i-objective-inputs-and-output-contract/2026-07-18-ep-032-writing-the-workflow-spec-i-objective-inputs-and-output-contract-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 032: Writing The Workflow Spec I Objective Inputs And Output Contract. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-18-ep-032-writing-the-workflow-spec-i-objective-inputs-and-output-contract/2026-07-18-ep-032-writing-the-workflow-spec-i-objective-inputs-and-output-contract-claude.pdf</itunes:summary>
+<pubDate>Sat, 18 Jul 2026 08:26:38 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-032-bed7fbd65e33</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-18-ep-032-writing-the-workflow-spec-i-objective-inputs-and-output-contract/friday-ai-education-ep-032.mp3" length="16472326" type="audio/mpeg"/>
+<itunes:episode>32</itunes:episode>
+<itunes:duration>00:17:09</itunes:duration>
+</item>
 <item>
 <title>Episode 031: Workflow Failure Modes Ii Unsafe Action Drift And Recovery</title>
 <description>FRIDAY AI Education Episode 031: Workflow Failure Modes Ii Unsafe Action Drift And Recovery. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery/2026-07-17-ep-031-workflow-failure-modes-ii-unsafe-action-drift-and-recovery-claude.pdf</description>
