@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Sun, 19 Jul 2026 09:10:14 GMT</lastBuildDate>
+<lastBuildDate>Mon, 20 Jul 2026 09:10:35 GMT</lastBuildDate>
+<item>
+<title>Episode 034: Tool Use I From Text Generator To Actor</title>
+<description>FRIDAY AI Education Episode 034: Tool Use I From Text Generator To Actor. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-20-ep-034-tool-use-i-from-text-generator-to-actor/2026-07-20-ep-034-tool-use-i-from-text-generator-to-actor-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 034: Tool Use I From Text Generator To Actor. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-20-ep-034-tool-use-i-from-text-generator-to-actor/2026-07-20-ep-034-tool-use-i-from-text-generator-to-actor-claude.pdf</itunes:summary>
+<pubDate>Mon, 20 Jul 2026 08:25:37 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-034-b9d5373388e7</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-20-ep-034-tool-use-i-from-text-generator-to-actor/friday-ai-education-ep-034.mp3" length="19601586" type="audio/mpeg"/>
+<itunes:episode>34</itunes:episode>
+<itunes:duration>00:20:25</itunes:duration>
+</item>
 <item>
 <title>Episode 033: Writing The Workflow Spec Ii Gates Failure Handling And Done</title>
 <description>FRIDAY AI Education Episode 033: Writing The Workflow Spec Ii Gates Failure Handling And Done. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-19-ep-033-writing-the-workflow-spec-ii-gates-failure-handling-and-done/2026-07-19-ep-033-writing-the-workflow-spec-ii-gates-failure-handling-and-done-claude.pdf</description>
