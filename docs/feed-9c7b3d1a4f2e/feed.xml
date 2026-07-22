@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Tue, 21 Jul 2026 09:10:29 GMT</lastBuildDate>
+<lastBuildDate>Wed, 22 Jul 2026 09:10:24 GMT</lastBuildDate>
+<item>
+<title>Episode 036: Tool Use Iii Reliability Idempotency And Receipts</title>
+<description>FRIDAY AI Education Episode 036: Tool Use Iii Reliability Idempotency And Receipts. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 036: Tool Use Iii Reliability Idempotency And Receipts. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts-claude.pdf</itunes:summary>
+<pubDate>Wed, 22 Jul 2026 08:25:59 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-036-743a8f07a01f</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts/friday-ai-education-ep-036.mp3" length="18303405" type="audio/mpeg"/>
+<itunes:episode>36</itunes:episode>
+<itunes:duration>00:19:03</itunes:duration>
+</item>
 <item>
 <title>Episode 035: Tool Use Ii Permissions Least Privilege And Approval</title>
 <description>FRIDAY AI Education Episode 035: Tool Use Ii Permissions Least Privilege And Approval. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-21-ep-035-tool-use-ii-permissions-least-privilege-and-approval/2026-07-21-ep-035-tool-use-ii-permissions-least-privilege-and-approval-claude.pdf</description>
