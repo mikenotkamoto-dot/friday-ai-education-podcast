@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Wed, 22 Jul 2026 09:10:24 GMT</lastBuildDate>
+<lastBuildDate>Thu, 23 Jul 2026 09:10:22 GMT</lastBuildDate>
+<item>
+<title>Episode 037: Retrieval I Why Models Need External Knowledge</title>
+<description>FRIDAY AI Education Episode 037: Retrieval I Why Models Need External Knowledge. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 037: Retrieval I Why Models Need External Knowledge. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge-claude.pdf</itunes:summary>
+<pubDate>Thu, 23 Jul 2026 08:28:51 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-037-056f09d28294</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge/friday-ai-education-ep-037.mp3" length="20992972" type="audio/mpeg"/>
+<itunes:episode>37</itunes:episode>
+<itunes:duration>00:21:51</itunes:duration>
+</item>
 <item>
 <title>Episode 036: Tool Use Iii Reliability Idempotency And Receipts</title>
 <description>FRIDAY AI Education Episode 036: Tool Use Iii Reliability Idempotency And Receipts. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts/2026-07-22-ep-036-tool-use-iii-reliability-idempotency-and-receipts-claude.pdf</description>
