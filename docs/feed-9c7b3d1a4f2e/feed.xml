@@ -11,7 +11,17 @@
 <itunes:type>episodic</itunes:type>
 <itunes:category text="Education"/>
 <itunes:image href="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/cover.png"/>
-<lastBuildDate>Thu, 23 Jul 2026 09:10:22 GMT</lastBuildDate>
+<lastBuildDate>Fri, 24 Jul 2026 09:10:43 GMT</lastBuildDate>
+<item>
+<title>Episode 038: Retrieval Ii Chunking Embeddings And Ranking</title>
+<description>FRIDAY AI Education Episode 038: Retrieval Ii Chunking Embeddings And Ranking. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-24-ep-038-retrieval-ii-chunking-embeddings-and-ranking/2026-07-24-ep-038-retrieval-ii-chunking-embeddings-and-ranking-claude.pdf</description>
+<itunes:summary>FRIDAY AI Education Episode 038: Retrieval Ii Chunking Embeddings And Ranking. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-24-ep-038-retrieval-ii-chunking-embeddings-and-ranking/2026-07-24-ep-038-retrieval-ii-chunking-embeddings-and-ranking-claude.pdf</itunes:summary>
+<pubDate>Fri, 24 Jul 2026 08:24:02 GMT</pubDate>
+<guid isPermaLink="false">friday-ai-education-038-b64be77d1148</guid>
+<enclosure url="https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-24-ep-038-retrieval-ii-chunking-embeddings-and-ranking/friday-ai-education-ep-038.mp3" length="19865737" type="audio/mpeg"/>
+<itunes:episode>38</itunes:episode>
+<itunes:duration>00:20:41</itunes:duration>
+</item>
 <item>
 <title>Episode 037: Retrieval I Why Models Need External Knowledge</title>
 <description>FRIDAY AI Education Episode 037: Retrieval I Why Models Need External Knowledge. Printable companion: https://mikenotkamoto-dot.github.io/friday-ai-education-podcast/episodes/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge/2026-07-23-ep-037-retrieval-i-why-models-need-external-knowledge-claude.pdf</description>
